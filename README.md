@@ -1,0 +1,2 @@
+# winesc
+wine-searcher-crawler

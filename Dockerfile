@@ -5,6 +5,6 @@ FROM yvictor/docker_conda:cmpy
 MAINTAINER yvictor
 
 COPY . /winesc
-
+WORKDIR /home
 RUN conda install jupyter notebook -y
 CMD jupyter notebook

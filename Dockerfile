@@ -7,4 +7,4 @@ MAINTAINER yvictor
 COPY . /winesc
 
 RUN conda install jupyter notebook -y
-RUN jupyter notebook
+CMD jupyter notebook

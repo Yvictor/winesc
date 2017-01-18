@@ -7,4 +7,4 @@ MAINTAINER yvictor
 WORKDIR /home
 COPY . /winesc
 RUN conda install jupyter notebook -y
-CMD jupyter notebook
+CMD jupyter notebook --ip 0.0.0.0
